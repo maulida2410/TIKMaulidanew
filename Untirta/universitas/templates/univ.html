@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+            <h2 class="menu">{{TENTANG}}</h2>
+            {{ title }}
+            <h2>MACAM MACAM FAKULTAS</h2>
+            {% for tentang in penjelasan %}
+            {{ penjelasan }}
+            {% endfor %}
+
+{% endblock %}
+

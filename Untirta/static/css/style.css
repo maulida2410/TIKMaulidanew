@@ -1,0 +1,68 @@
+*{
+    margin: 10;
+    padding: 10;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background-color: lavenderblush;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.nav {
+    height: 70px;
+    width: 100%;
+    padding: 19px 30px;
+    position: fixed;
+    border-bottom: 1px solid green;
+}
+
+.header {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    line-height: 30px;
+}
+
+.menu {
+    background-color:khaki;
+    height: 70px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.4);
+    float: right;
+    display: inline;
+    font-size: 18x;
+}
+
+.menu a {
+    padding: 10px 12px;
+    font-weight: 550px;
+    color: black;
+    transition: all .5s !important;
+}
+
+.menu a:hover {
+    color: cyan;
+    background-color: blue;
+}
+
+.dropdown {
+position:relative;
+display: inline-block;
+}
+
+h1 {
+    line-height: 50px;
+    float: right;
+    display:contents;
+    position: -webkit-sticky;
+    
+}
+
+h2 {
+    text-align: center;
+    display: block;
+    position: relative;
+}
